@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Yakov Moskvichev</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/static/css/style.css">
 </head>
 
 <body>
@@ -16,46 +16,60 @@
     <div class="content">
         <div class="section">
             <h2 class="ubuntu-medium">About Me</h2>
-            <p class="ubuntu-regular full-width">I'm a Java Developer with 1+ years of experience in developing scalable
-                and
-                efficient software solutions. Proficient in English at B1 level. Possess functional skills in GIT,
-                GitHub, GitLab, Agile (sprint, kanban), Yandex Tracker. Additionally, I possess industrial
-                skills
-                in Agile development and social networking. I have worked on multiple projects involving Spring Boot
-                and Android. I'm proficient in designing and developing scalable software solutions</p>
+            <p class="ubuntu-regular full-width">I'm a Java Developer with 3+ years of experience in building scalable and efficient backend services,
+                primarily using Spring Boot. I also develop plugins for JetBrains IDEs, working with IDE integration,
+                background services and custom UI components. I am proficient in Git (GitHub, GitLab)
+                and Agile processes (sprint, kanban, Yandex Tracker) in a commercial environment.
+                I have participated in several projects involving Spring Boot, JetBrains IDE plugin development and, earlier, Android.
+                I'm proficient in designing, implementing and maintaining reliable software solutions.</p>
         </div>
         <div class="section">
             <h2 class="ubuntu-medium">Skills</h2>
             <details class="details">
                 <summary class="details__title ubuntu-medium">🟢 Backend Development</summary>
                 <div class="details__content ubuntu-regular full-width">
-                    <p><span class="underline">Java EE, Spring Boot, Spring Data, Spring Cloud OpenFeign:</span> <br>Strong knowledge of Java EE
-                        development using Spring Boot, Spring Data, and Spring Cloud OpenFeign frameworks to build
-                        scalable and fault-tolerant applications
+                    <p><span class="underline">Java, Spring Boot, Spring Data:</span> <br>Design and implementation of RESTful backend services: domain and data modeling, validation, error handling, pagination, security basics and layering (controller–service–repository).
                     </p>
-                    <p><span class="underline">Hibernate ORM, Hibernate Search:</span> <br>Experience with Hibernate ORM for managing
-                        object-relational data model and Hibernate Search for searching databases
+                    <p><span class="underline">Hibernate, SQL databases (PostgreSQL, SQLite):</span> <br>Confident work with relational databases: entity mapping, query optimization, migrations and data access patterns using Hibernate and Spring Data.
                     </p>
-                    <p><span class="underline">Junit:</span> <br>Experience writing unit tests using Junit to ensure code quality</p>
-                    <p><span class="underline">OpenAPI/Swagger, Restfull API, Postman:</span> <br>Experience designing and documenting RESTful APIs
-                        using OpenAPI/Swagger, and testing APIs using the Postman tool
+                    <p><span class="underline">Service-to-service communication:</span> <br>Integration with external and internal services via HTTP/REST, client libraries and Spring Cloud OpenFeign, handling timeouts, retries and error propagation.
                     </p>
-                    <p><span class="underline">Docker:</span> <br>Experience using Docker to containerize applications and make them easier to deploy
-                        and scale
+                    <p><span class="underline">Kafka, message brokers:</span> <br>Experience building event-driven integrations with Apache Kafka and other message brokers: designing topics and message contracts, configuring producers/consumers and consumer groups, handling offsets, retries and DLQ, ensuring at-least-once processing and idempotent consumers.
                     </p>
-                    <p><span class="underline">IntelliJ IDEA:</span> <br>Proficiency with IntelliJ IDEA development
-                        environments for Java application development
+                    <p><span class="underline">Testing and quality:</span> <br>Writing unit and integration tests with JUnit, mocking dependencies, covering service and repository layers to keep regression risk under control.
                     </p>
-                    <p><span class="underline">XML, Maven, Gradle:</span> <br>Knowledge of XML for configuring applications and building projects
-                        using Maven and Gradle build tools
+                    <p><span class="underline">Containers and tooling:</span> <br>Using Docker for local environments and service packaging, confident work with build tools (Maven/Gradle).
                     </p>
-                    <p><span class="underline">Jsoup, Json:</span> <br>Knowledge of Jsoup library for parsing HTML and working with JSON to exchange
-                        data between client and server
+                    <p><span class="underline">APIs and data formats:</span> <br>Designing and documenting APIs with OpenAPI/Swagger, working with JSON and HTTP clients (including HTML parsing with Jsoup when needed).
                     </p>
                 </div>
             </details>
             <details class="details">
-                <summary class="details__title ubuntu-medium">🟢 Android Development</summary>
+                <summary class="details__title ubuntu-medium">🟢 Database Management</summary>
+                <div class="details__content ubuntu-regular full-width">
+                    <p><span class="underline">PostgreSQL, SQLite:</span> <br>Confident work with relational databases: writing complex SQL queries, joins, aggregation, indexes, basic performance tuning and data migrations.
+                    </p>
+                    <p><span class="underline">pgAdmin, DBeaver:</span> <br>Everyday use of database clients for schema exploration, ad‑hoc querying, data analysis and troubleshooting in development and test environments.
+                    </p>
+                </div>
+            </details>
+            <details class="details">
+                <summary class="details__title ubuntu-medium">🟢 Plugin Development</summary>
+                <div class="details__content ubuntu-regular full-width">
+                    <p><span class="underline">Plugins for JetBrains IDEs:</span> <br>Experience developing plugins for JetBrains IDEs (IntelliJ IDEA, PyCharm, etc.): working with JetBrains Platform SDK, extension points, actions, listeners and services.
+                    </p>
+                    <p><span class="underline">IDE integration and UI:</span> <br>Building plugin UI components (tool windows, dialogs, panels), handling IDE events and interacting with the code editor.
+                    </p>
+                    <p><span class="underline">Background tasks and performance:</span> <br>Implementing background tasks, progress indicators, debouncing and queues with a focus on IDE performance and UI responsiveness.
+                    </p>
+                    <p><span class="underline">Project indexing and analysis:</span> <br>Configuring project scanning and indexing, working with the IDE virtual file system and documents to keep code context up to date.
+                    </p>
+                    <p><span class="underline">Integration with external services:</span> <br>Calling local and remote services from the plugin, exchanging data via HTTP/WebSocket and handling errors.
+                    </p>
+                </div>
+            </details>
+            <details class="details">
+                <summary class="details__title ubuntu-medium">🟡 Android Development</summary>
                 <div class="details__content ubuntu-regular full-width">
                     <p><span class="underline">Android SDK, AndroidX AppCompat, Google Material Components, RxJava:</span> <br>Experience developing
                         Android mobile applications using Android SDK, AndroidX AppCompat and Google Material
@@ -72,30 +86,6 @@
                 </div>
             </details>
             <details class="details">
-                <summary class="details__title ubuntu-medium">🟢 Database Management</summary>
-                <div class="details__content ubuntu-regular full-width">
-                    <p><span class="underline">PostgreSQL, pgAdmin, SQLite:</span> <br>Knowledge of PostgreSQL and SQLite relational databases and
-                        experience with pgAdmin for database administration
-                    </p>
-                </div>
-            </details>
-            <details class="details">
-                <summary class="details__title ubuntu-medium">🟢 Operating Systems</summary>
-                <div class="details__content ubuntu-regular full-width">
-                    <p><span class="underline">Windows, Linux, macOS:</span> <br>Experience working on a variety of operating systems: Windows, Linux,
-                        and macOS
-                    </p>
-                </div>
-            </details>
-            <details class="details">
-                <summary class="details__title ubuntu-medium">🟡 Frontend Development</summary>
-                <div class="details__content ubuntu-regular full-width">
-                    <p><span class="underline">Thymeleaf (Html), JavaScript, CSS:</span> <br>Ability to develop interfaces using Thymeleaf to template
-                        HTML, and knowledge of JavaScript and CSS to create dynamic and stylish web applications
-                    </p>
-                </div>
-            </details>
-            <details class="details">
                 <summary class="details__title ubuntu-medium">🔴 Other</summary>
                 <div class="details__content ubuntu-regular full-width">
                     <p><span class="underline">Selenium:</span> <br>Experience automating web application testing using Selenium</p>
@@ -105,10 +95,14 @@
         </div>
         <div class="section">
             <h2 class="ubuntu-medium">Education</h2>
-            <p class="ubuntu-regular full-width">Tver State University, Faculty of Applied Mathematics and Cybernetics,
-                Fundamental
-                Informatics and Information Technologies, 2024 - Theoretical Foundations and Practical Issues of
-                Software Development</p>
+            <p class="ubuntu-regular full-width">
+                Tver State University, Faculty of Applied Mathematics and Cybernetics<br>
+                Bachelor's degree in Fundamental Informatics and Information Technologies, 2024 –
+                Theoretical Foundations and Practical Issues of Software Development.
+                <br><br>
+                Tver State University, Faculty of Applied Mathematics and Cybernetics<br>
+                Master's degree in Applied Informatics, 2026 – Intelligent Systems: Theory and Applications.
+            </p>
         </div>
         <div class="section">
             <h2 class="ubuntu-medium">Contacts</h2>
@@ -119,11 +113,11 @@
         </div>
     </div>
     <div class="footer">
-        <p class="ubuntu-medium">&copy; 2024 Javakov</p>
+        <p class="ubuntu-medium">&copy; 2026 Javakov</p>
     </div>
 </div>
 
-<script src="main.js"></script>
+<script src="/static/js/main.js"></script>
 </body>
 
 </html>
