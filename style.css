@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 body {
-    font-family: 'SansSerif', sans-serif;
     margin: 0;
     display: flex;
     flex-direction: column;
